@@ -5,11 +5,11 @@ The project used Python and selenium to get data from TWBD websites [(click here
 
 The code is in **watersurvey.py** with a class defined as TWDB_Scrapter and several **functions** which are self-explainary:
 
-1. load_page: loads the TWDB websites
-2. get_all_options: get all options (counties) from the dropdown menu and save it in a list
-3. select_item: select one option
-4. download_excel: click the button to generate and download the data into a excel file
-5. turnoff_driver: turn off the webdriver
+1. **load_page**: loads the TWDB websites
+2. **get_all_options**: get all options (counties) from the dropdown menu and save it in a list
+3. **select_item**: select one option
+4. **download_excel**: click the button to generate and download the data into a excel file
+5. **turnoff_driver**: turn off the webdriver
 
 Then, the automated procedure could be accomplised the loop as below:
 
